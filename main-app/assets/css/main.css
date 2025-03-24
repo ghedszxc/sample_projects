@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "NunitoSans_10pt";
+  src:
+    url("fonts/NunitoSans_10pt-Regular.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-Italic.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-Black.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-BlackItalic.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-Bold.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-BoldItalic.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-Medium.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-MediumItalic.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-Light.ttf") format("truetype"),
+    url("fonts/NunitoSans_10pt-LightItalic.ttf") format("truetype"),
+    /* url("fonts/Montserrat-Thin.ttf") format("truetype"),
+    url("fonts/Montserrat-ThinItalic.ttf") format("truetype") */;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* hide google translate banner */
+#\:1\.container {
+  display: none !important;
+  opacity: 0;
+}
+
+* {
+  font-family: "NunitoSans_10pt" !important;
+}
+
+.text-h1 {
+  font-size: 7rem !important;
+}
+
+.default-bg {
+  background-color: #f9fbfa !important;
+}
+
+.nuxt-link {
+  text-decoration: none !important;
+}
+
+.nuxt-link:hover {
+  text-decoration: underline !important;
+}
+
+.base-layout-padding {
+  padding-left: 160px !important;
+  padding-right: 160px !important;
+}
+
+.pointer-cursor {
+  cursor: pointer !important;
+}
+
+.v-tab.v-tab.v-btn {
+  min-width: 30px !important;
+}
+
+.fs24 {
+  font-size: 24px;
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+/* For webkit browsers (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Or any desired color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Or any desired color */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Or any desired color */
+}
+
+.required-time {
+  border: 1px solid #b00020 !important;
+}
+
+.required-time-text {
+  color: #b00020 !important;
+}
