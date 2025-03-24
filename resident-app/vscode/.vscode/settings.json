@@ -1,0 +1,52 @@
+{
+  "git-graph.maxDepthOfRepoSearch": 1,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.experimental.useFlatConfig": true,
+  "cSpell.words": [
+    "ANPR",
+    "Burkina",
+    "Caicos",
+    "cctvs",
+    "collabs",
+    "Faso",
+    "Futuna",
+    "Leste",
+    "Marino",
+    "nric",
+    "Nuxt",
+    "openai",
+    "papaparse",
+    "Rica",
+    "SCDF",
+    "seasonpass",
+    "skiptranslate",
+    "Tokelau",
+    "vuetify"
+  ],
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "./package.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "./dist",
+    "*.config.js",
+    "*.config.ts",
+    "*.config.cjs",
+    "./docker-compose.yaml"
+  ],
+  "conventionalCommits.gitmoji": false,
+  "conventionalCommits.promptBody": false
+}

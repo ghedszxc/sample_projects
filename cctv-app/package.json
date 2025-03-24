@@ -1,0 +1,62 @@
+{
+  "name": "cleaning-app-main",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.18.2"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "test:build": "NODE_OPTIONS='--max-old-space-size=8192' nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint:js": "eslint --config .eslintrc.cjs",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:js && yarn lint:prettier",
+    "lint:fix": "prettier --write --list-different . && yarn lint:js --fix",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.2.0",
+    "@mdi/font": "^7.4.47",
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash": "^4.17.0",
+    "@vite-pwa/nuxt": "^0.10.5",
+    "crypto-js": "^4.2.0",
+    "file-saver": "^2.0.5",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "nuxt": "^3.12.3",
+    "nuxt-proxy": "^0.4.1",
+    "qrcode.vue": "^3.4.1",
+    "socket.io-client": "^4.7.5",
+    "uuid": "^10.0.0",
+    "vite": "5.0.0",
+    "vue": "^3.4.14",
+    "vuedraggable": "^4.1.0",
+    "vuetify-nuxt-module": "^0.14.1",
+    "webpack": "^5.92.1",
+    "workbox-build": "^7.1.0",
+    "workbox-window": "^7.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "vscode-languageclient": "^7.0.0"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
