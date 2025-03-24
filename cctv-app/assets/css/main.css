@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Product Sans";
+  src: url("fonts/ProductSans-Regular.ttf") format("truetype"),
+    url("fonts/ProductSans-Italic.ttf") format("truetype"),
+    url("fonts/ProductSans-Black.ttf") format("truetype"),
+    url("fonts/ProductSans-BlackItalic.ttf") format("truetype"),
+    url("fonts/ProductSans-Bold.ttf") format("truetype"),
+    url("fonts/ProductSans-BoldItalic.ttf") format("truetype"),
+    url("fonts/ProductSans-Medium.ttf") format("truetype"),
+    url("fonts/ProductSans-MediumItalic.ttf") format("truetype"),
+    url("fonts/ProductSans-Light.ttf") format("truetype"),
+    url("fonts/ProductSans-LightItalic.ttf") format("truetype"),
+    url("fonts/ProductSans-Thin.ttf") format("truetype"),
+    url("fonts/ProductSans-ThinItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Product Sans" !important;
+}
+
+.text-h1 {
+  font-size: 7rem !important;
+}
+
+.default-bg {
+  background-color: #f9fbfa !important;
+}
+
+.nuxt-link {
+  text-decoration: none !important;
+}
+
+.nuxt-link:hover {
+  text-decoration: underline !important;
+}
+
+.base-layout-padding {
+  padding-left: 160px !important;
+  padding-right: 160px !important;
+}
+
+.pointer-cursor {
+  cursor: pointer !important;
+}
+
+.v-tab.v-tab.v-btn {
+  min-width: 30px !important;
+}
+
+.fs24 {
+  font-size: 24px;
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+/* For webkit browsers (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Or any desired color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Or any desired color */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Or any desired color */
+}
+
+.required-time {
+  border: 1px solid #b00020 !important;
+}
+
+.required-time-text {
+  color: #b00020 !important;
+}

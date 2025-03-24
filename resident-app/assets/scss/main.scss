@@ -1,0 +1,9 @@
+// @use "vuetify/styles" with (
+//   $body-font-family: "Product Sans",
+//   $heading-font-family: "Product Sans"
+// );
+
+@use "vuetify/styles" with (
+  $body-font-family: "Nunito Sans",
+  $heading-font-family: "Nunito Sans"
+);
